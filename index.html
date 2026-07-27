@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Youth Connect</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>Youth Connect</title>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
@@ -16,93 +18,248 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <div class="phone">
 
-<header>
-<h2>Youth Connect</h2>
-<i class="fa-solid fa-bell"></i>
-</header>
+    <!-- Header -->
 
-<div class="welcome">
+    <header>
 
-<h3>Hello, Alex! 👋</h3>
+        <div>
 
-<p>Let's make today active!</p>
+            <h2>Hello, Alex! 👋</h2>
 
-<button id="playBtn">Play Together</button>
+            <p>Let's make today active!</p>
 
-</div>
+        </div>
 
-<h3>Quick Actions</h3>
+        <div class="bell">
 
-<div class="grid">
+            <i class="fa-regular fa-bell"></i>
 
-<div class="card">
-<i class="fa-solid fa-basketball"></i>
-<p>Book Court</p>
-</div>
+        </div>
 
-<div class="card">
-<i class="fa-solid fa-users"></i>
-<p>Communities</p>
-</div>
+    </header>
 
-<div class="card">
-<i class="fa-solid fa-calendar-days"></i>
-<p>Activities</p>
-</div>
 
-<div class="card">
-<i class="fa-solid fa-user"></i>
-<p>Profile</p>
-</div>
+    <!-- Hero Banner -->
 
-</div>
+    <section class="hero">
 
-<h3>Upcoming Activities</h3>
+        <div class="hero-text">
 
-<div class="activity">
-🏀 Basketball Match
-<span>5 July • 4:00 PM</span>
-</div>
+            <span class="badge">
 
-<div class="activity">
-⚽ Football Friendly
-<span>8 July • 6:00 PM</span>
-</div>
+                🏀 PLAY TOGETHER
 
-<nav>
+            </span>
 
-<i class="fa-solid fa-house active"></i>
+            <h1>Find Courts.<br>Meet Friends.</h1>
 
-<i class="fa-solid fa-calendar"></i>
+            <p>
 
-<i class="fa-solid fa-comments"></i>
+                Book sports courts and discover activities
 
-<i class="fa-solid fa-user"></i>
+                happening near you.
 
-</nav>
+            </p>
+
+            <button>
+
+                Get Started
+
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <div class="basketball-circle">
+
+                <i class="fa-solid fa-basketball fa-5x"></i>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quick Actions -->
+
+    <section class="section">
+
+        <h3>Quick Actions</h3>
+
+        <div class="grid">
+
+            <a href="book.html" class="card blue">
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+                <h4>Book Court</h4>
+
+                <p>Reserve a court instantly.</p>
+
+            </a>
+
+            <a href="activities.html" class="card orange">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                <h4>Activities</h4>
+
+                <p>Find nearby sports events.</p>
+
+            </a>
+
+            <a href="communities.html" class="card green">
+
+                <i class="fa-solid fa-users"></i>
+
+                <h4>Community</h4>
+
+                <p>Join local sports groups.</p>
+
+            </a>
+
+            <a href="profile.html" class="card purple">
+
+                <i class="fa-solid fa-user"></i>
+
+                <h4>Profile</h4>
+
+                <p>View your account.</p>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Upcoming Activities -->
+
+    <section class="section">
+
+        <div class="section-title">
+
+            <h3>Upcoming Activities</h3>
+
+            <a href="#">See All</a>
+
+        </div>
+
+        <div class="activity-card">
+
+            <div class="activity-image">
+
+                <i class="fa-solid fa-basketball fa-3x"></i>
+
+            </div>
+
+            <div class="activity-info">
+
+                <h4>3v3 Basketball Challenge</h4>
+
+                <p>
+
+                    📍 Jurong East Sports Hall
+
+                </p>
+
+                <p>
+
+                    🕓 Saturday • 4:00 PM
+
+                </p>
+
+            </div>
+
+            <button class="join-btn">
+
+                Join
+
+            </button>
+
+        </div>
+
+        <div class="activity-card">
+
+            <div class="activity-image football">
+
+                <i class="fa-solid fa-futbol fa-3x"></i>
+
+            </div>
+
+            <div class="activity-info">
+
+                <h4>Friendly Football Match</h4>
+
+                <p>
+
+                    📍 Woodlands Stadium
+
+                </p>
+
+                <p>
+
+                    🕓 Sunday • 6:00 PM
+
+                </p>
+
+            </div>
+
+            <button class="join-btn">
+
+                Join
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Bottom Navigation -->
+
+    <nav>
+
+        <a class="active">
+
+            <i class="fa-solid fa-house"></i>
+
+            <span>Home</span>
+
+        </a>
+
+        <a href="book.html">
+
+            <i class="fa-solid fa-calendar"></i>
+
+            <span>Book</span>
+
+        </a>
+
+        <a href="communities.html">
+
+            <i class="fa-solid fa-users"></i>
+
+            <span>Community</span>
+
+        </a>
+
+        <a href="profile.html">
+
+            <i class="fa-solid fa-user"></i>
+
+            <span>Profile</span>
+
+        </a>
+
+    </nav>
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
-<a href="book.html" class="card">
-    <i class="fa-solid fa-basketball"></i>
-    <p>Book Court</p>
-</a>
-
-<a href="communities.html" class="card">
-    <i class="fa-solid fa-users"></i>
-    <p>Communities</p>
-</a>
-
-<a href="activities.html" class="card">
-    <i class="fa-solid fa-calendar"></i>
-    <p>Activities</p>
-</a>
-
-<a href="profile.html" class="card">
-    <i class="fa-solid fa-user"></i>
-    <p>Profile</p>
-</a>
